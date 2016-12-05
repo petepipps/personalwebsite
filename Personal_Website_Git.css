@@ -1,0 +1,21 @@
+body {
+
+	text-align: center;
+	margin: 100px;
+	margin-top: 100px;
+	color: green;
+	background-color: silver;
+	
+}
+
+
+#image {
+	
+	margin: 0 auto;
+	background-image: url("P_A.JPG");
+	height: 600px;
+	background-repeat: no-repeat;
+	width: 460px;
+
+}
+
