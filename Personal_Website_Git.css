@@ -1,17 +1,69 @@
-body {
-
-	text-align: center;
-	margin: 100px;
-	margin-top: 100px;
-	color: green;
-	background-color: silver;
-	
+div .container {
+    width: 100%;
+    border: 1px solid gray;
 }
+
+header, footer {
+    padding: 5px;
+    color: black;
+    background-color: white;
+    clear: left;
+    text-align: center;
+
+}
+ 
+#nav {
+
+    text-align: center;
+    margin: 0 auto;
+    padding: 0 auto;
+    width: 100%;
+    overflow: hidden;
+}
+
+
+ul {
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0 12%;
+    overflow: hidden;
+    background-color: #A0A0A0;
+    text-align: center;
+}
+
+li {
+   display: inline-block;
+   margin: 0;
+   padding: 0;
+
+}
+
+ul li {
+
+    float: left;
+    margin: 0 139.7px;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+li a:hover {
+    background-color: #808080;
+}
+
+
 
 
 #image {
 	
-	margin: 0 auto;
+	margin: 50px auto;
 	background-image: url("P_A.JPG");
 	height: 600px;
 	background-repeat: no-repeat;
