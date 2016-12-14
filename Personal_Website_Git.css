@@ -28,7 +28,8 @@ ul {
     margin: 0;
     padding: 0 12%;
     overflow: hidden;
-    background-color: #A0A0A0;
+
+    background-color: black;
     text-align: center;
 }
 
@@ -58,16 +59,28 @@ li a:hover {
     background-color: #808080;
 }
 
+#Intro {
 
+	position: relative;
+    display: inline-block;
+    padding: 40px;
+    overflow: hidden;
+    float: left;
+    width: 50%;
+    margin-top: 50px;
+
+}
 
 
 #image {
 	
 	margin: 50px auto;
+	margin-left: 90px;
 	background-image: url("P_A.JPG");
 	height: 600px;
 	background-repeat: no-repeat;
 	width: 460px;
+	float: left;
 
 }
 

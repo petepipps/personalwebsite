@@ -1,3 +1,51 @@
+#nav {
+
+    text-align: center;
+    margin: 0 auto;
+    padding: 0 auto;
+    width: 100%;
+    overflow: hidden;
+}
+
+
+ul {
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0 12%;
+    overflow: hidden;
+    background-color: black;
+    text-align: center;
+}
+
+li {
+   display: inline-block;
+   margin: 0;
+   padding: 0;
+
+}
+
+ul li {
+
+    float: left;
+    margin: 0 139.7px;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+li a:hover {
+    background-color: #808080;
+}
+
+
+
 img {
 	
 	width: 100%;
@@ -5,3 +53,4 @@ img {
 	padding-bottom: 17px;
 
 }
+
